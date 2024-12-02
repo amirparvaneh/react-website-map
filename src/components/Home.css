@@ -1,0 +1,34 @@
+.home-container {
+  position: relative;
+  height: 100vh;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_blank_without_borders.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.map-button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.map-button:hover {
+  background-color: #1e7e34;
+}

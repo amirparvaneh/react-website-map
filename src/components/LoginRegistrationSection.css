@@ -1,0 +1,23 @@
+.login-register-container {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.login-register-buttons {
+  margin-top: 10px;
+}
+
+.login-register-buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-register-buttons button:hover {
+  background-color: #0053a0;
+}

@@ -46,6 +46,33 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0053a0;
+}
+
 button:hover {
   border-color: #646cff;
 }
