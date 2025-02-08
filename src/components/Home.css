@@ -1,6 +1,7 @@
 .home-container {
   position: relative;
   height: 100vh;
+  width: 200vh;
   background-image: url("/map-books/public/124947.jpg");
   background-size: cover;
   background-position: center;
